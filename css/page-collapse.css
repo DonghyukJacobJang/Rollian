@@ -1,0 +1,63 @@
+
+.page_collapsible_booking {
+    margin: 0;
+    padding:10px;
+    height:20px;
+
+    border-top:#f0f0f0 1px solid;
+    background: #cccccc;
+
+    text-decoration:none;
+    color: #000;
+    font-size:1em;
+}
+.page_open_booking {
+    margin: 0;
+    padding:10px;
+    height:20px;
+
+    border-top:#f0f0f0 1px solid;
+    background: #cccccc;
+
+    text-decoration:none;
+    color: #000;
+    font-size:1em;
+}
+.verticaltext {
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	white-space:nowrap;
+
+}
+
+.collapse-open {
+    background: #6dce0b;
+    color: #fff;
+	top:50px;
+	left:222px;
+	z-index:10;
+}
+
+.collapse-open span {
+    display:block;
+    float:right;
+    padding:10px;
+    background:url(../images/background/up-arro.png) center center no-repeat;
+}
+
+.collapse-close span {
+    display:block;
+    float:right;
+	padding:10px;
+    background:url(../images/background/down-arro.png) center center no-repeat;
+}
+
+div.content1{
+    background:#f0f0f0;
+    margin: 0;
+    /*padding:10px;*/
+    /*line-height:1.5em;*/
+    font-family:"Helvetica-Light", Arial, Helvetica, Geneva, sans-serif;
+}

@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rollian Sushi</title>
+		<meta charset=utf-8>
+        <meta name="keywords" content="suchi, sashimi, Japanese, food, udong, teriyaki, miso, avocado, roll, rolls, dragon"/>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+		
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<style>
+		.black_overlay{
+			display: none;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			width: 110%;
+			height: 1200%;
+			background-color: black;
+			z-index:1001;
+			-moz-opacity: 0.8;
+			opacity:.80;
+			filter: alpha(opacity=80);
+		}
+		.white_content {
+			display: none;
+			position: absolute;
+			top: 25%;
+			left: 25%;
+			width: 648px;
+			height: 354px;
+			padding: 16px;
+			border: 5px solid #6dce0b;			
+			z-index:1002;
+			overflow: auto;
+		}
+		.grey-font {
+			color:#aaa;
+		}
+		</style>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
+		
+		<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+    </head>
+    <body>
+		<div id="main_container" class="main_container">
+			<div id="rollian_background" class="rollian_background">
+				<img src="images/background/default.jpg" alt="image1" style="display:none;"/>
+				<!--<div class="overlayer"></div>-->
+			</div>
+			
+			<div id="main_nav_menu" class="main_menu" >
+				<ul><li><img src="images/logo.png" alt="Rollian"/></li>
+					<li><a href="index.html"><span class="hover_effect"></span><span>Welcome</span></a></li>
+					<li><a href="about-rollian.html"><span class="hover_effect"></span><span>About us</span></a></li>
+					<li><a href="rollian-menu.html"><span class="hover_effect"></span><span>Our Menu</span></a></li>
+					<li><a href="rollian-visitus.html"><span class="hover_effect"></span><span>Visit us</span></a></li>
+				</ul>
+			</div>
+			<div class=clear></div>
+			<div class="side_page" id="Our Menu" style="display:block;">
+				<div class="content_text">
+					<p>&nbsp;</p>
+						
+					<ul class="rollian-thumbs">
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop1').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/1.jpg" alt="image"/>
+							</a>							
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop2').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/2.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop3').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/3.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop4').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/4.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop5').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/5.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop6').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/6.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop7').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/7.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop8').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/8.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop9').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/9.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop10').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/10.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop11').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/11.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop12').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/12.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop13').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/13.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop14').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/14.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop15').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/15.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop16').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/16.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop16').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/17.jpg" alt="image"/>
+							</a>
+						</li>
+						<li><a href = "javascript:void(0)" onclick = "document.getElementById('pop16').style.display='block';document.getElementById('fade').style.display='block'">
+								<img src="images/thumbs/menu/18.jpg" alt="image"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class=clear></div>
+		</div>
+		
+		<div id="pop1" class="white_content">
+			<img src="images/large/menu/1.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop1').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop2" class="white_content">
+			<img src="images/large/menu/2.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop2').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop3" class="white_content">
+			<img src="images/large/menu/3.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop3').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop4" class="white_content">
+			<img src="images/large/menu/4.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop4').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop5" class="white_content">
+			<img src="images/large/menu/5.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop5').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop6" class="white_content">
+			<img src="images/large/menu/6.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop6').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop7" class="white_content">
+			<img src="images/large/menu/7.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop7').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop8" class="white_content">
+			<img src="images/large/menu/8.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop8').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop9" class="white_content">
+			<img src="images/large/menu/9.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop9').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop10" class="white_content">
+			<img src="images/large/menu/10.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop10').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop11" class="white_content">
+			<img src="images/large/menu/11.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop11').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop12" class="white_content">
+			<img src="images/large/menu/12.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop12').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop13" class="white_content">
+			<img src="images/large/menu/13.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop13').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop14" class="white_content">
+			<img src="images/large/menu/14.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop14').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop15" class="white_content">
+			<img src="images/large/menu/15.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop15').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop16" class="white_content">
+			<img src="images/large/menu/16.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop16').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop17" class="white_content">
+			<img src="images/large/menu/17.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop16').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		<div id="pop18" class="white_content">
+			<img src="images/large/menu/18.jpg" alt="image" style="cursor:pointer;" onclick = "document.getElementById('pop16').style.display='none';document.getElementById('fade').style.display='none'"/>
+		</div>
+		
+		<div id="fade" class="black_overlay"></div>
+		<div class="menu-list" id="soup">
+			<h2 style="color: #fff; padding: 0px; font-size: 28px;">R<span style="color:#6dce0b;">o</span>llian Menu</h2>
+			<div class="submenu">
+				
+			<div id="content">
+				<a href="#" id="closeAll" title="Close all" style="color:#b0eb70; padding: 0px;">Close All</a> | 
+				<a href="#" id="openAll" title="Open All"style="color:#b0eb70; padding: 0px;">Open All</a>
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section1">Beverages<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;"> Beverages</h2>
+								<table>
+									<tr><td class="item-id">DR 01</td>
+										<td class="item-name">Evian Water</td>
+										<td class="item_price">2.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DR 02</td>
+										<td class="item-name">Perrier</td>
+										<td class="item_price">2.50(S) / 4.00(L)</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DR 03</td>
+										<td class="item-name">Soft Drink</td>
+										<td class="item_price">2.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2>Coke, Diet Coke, Ginger Ale, Sprite, Root Beer, Nestea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+									<tr><td class="item-id">DR 04</td>
+										<td class="item-name">Juice</td>
+										<td class="item_price">2.50</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font" colspan=2>Orange, Apple, Cranberry</td>
+									</tr>
+									<tr><td class="item-id">DR 05</td>
+										<td class="item-name">Green Tea</td>
+										<td class="item_price">1.50</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DR 06</td>
+										<td class="item-name">Ginger Tea</td>
+										<td class="item_price">3.00</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DR 07</td>
+										<td class="item-name">Yuzu Tea</td>
+										<td class="item_price">3.00</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DR 08</td>
+										<td class="item-name">Coffee</td>
+										<td class="item_price">2.50</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font" colspan=2></td>
+									</tr>
+								</table>
+							</div>
+						</p>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;"> Beer</h2>
+								<table>
+									<tr><td class="item-id">BR 01</td>
+										<td class="item-name">Sapporo (650mL Can)</td>
+										<td class="item_price">9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">BR 02</td>
+										<td class="item-name">Sapporo (341mL Bottle)</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">BR 03</td>
+										<td class="item-name">Corona, Heineken (330mL Bottle)</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">BR 04</td>
+										<td class="item-name">Domestic Beer (341mL Bottle)</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2>Canadian, Coors Light, Blue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+									<tr><td class="item-id">BR 05</td>
+										<td class="item-name">Steam Whistle Draft Beer</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2></td>
+									</tr>
+									<tr><td class="item-id">BR 06</td>
+										<td class="item-name">Sapporo Draft Beer</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font" colspan=2></td>
+									</tr>
+								</table>
+							</div>
+						</p>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Liquors (1 ¼ oz)</h2>
+								<table>
+									
+									<tr><td class="item-id">LQ 01</td>
+										<td class="item-name">Vodka (Smirnoff)</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">LQ 02</td>
+										<td class="item-name">Cognac (Hennessy)</td>
+										<td class="item_price">12.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">LQ 03</td>
+										<td class="item-name">Whisky (Canadian Club)</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">LQ 04</td>
+										<td class="item-name">Rum (Bacardi White)</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">LQ 05</td>
+										<td class="item-name">Scotch (Johnnie Walker Red Label)</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+										
+								</table>
+							</div>
+						</P>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Cocktails</h2>
+								<table>
+									
+									<tr><td class="item-id">CT 01</td>
+										<td class="item-name">Caipiriniha</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Popular Brazillian drink made with Cachaça and lime</td>
+									</tr>
+									<tr><td class="item-id">CT 02</td>
+										<td class="item-name">Cuba Libre</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Mixed drink from Cuba that combines rum, lime and coke</td>
+									</tr>
+									<tr><td class="item-id">CT 03</td>
+										<td class="item-name">Mojito</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>A popular tropical drink of muddled mint, club soda and sugar topped with rum and lime juice  </td>
+									</tr>
+									<tr><td class="item-id">CT 04</td>
+										<td class="item-name">Long Island Iced Tea</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Cocktail that is made with vodka, gin, light rum, tequila, triple sec and lemon juice</td>
+									</tr>
+									<tr><td class="item-id">CT 05</td>
+										<td class="item-name">Cosmopolitan</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Cocktail made with vodka, triple sec, cranberry juice, and freshly squeezed lime juice</td>
+									</tr>
+									<tr><td class="item-id">CT 06</td>
+										<td class="item-name">Martini</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Gin cocktail with dry vermouth</td>
+									</tr>
+									<tr><td class="item-id">CT 07</td>
+										<td class="item-name">Mint Julep</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>A minty bourbon drink</td>
+									</tr>
+									<tr><td class="item-id">CT 08</td>
+										<td class="item-name">Sake Mojito</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Mojito with Sho Chiku Bai Classic Junmai sake &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+										
+								</table>
+							</div>
+						</P>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Sake</h2>
+								<table>
+									
+									<tr><td class="item-id">SK 01</td>
+										<td class="item-name">Sho Chiku Bai (Served Hot)</td>
+										<td class="item_price">5.00(S) / 12.00(M) / 30.00(L)</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">SK 02</td>
+										<td class="item-name">Kimoto Junmai (300 mL)</td>
+										<td class="item_price">35.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Has full-bodied taste with smooth texture and a clean sharp finish</td>
+									</tr>
+									<tr><td class="item-id">SK 03</td>
+										<td class="item-name">Kubota Senju Tokubetsu Honjozo (750ml)</td>
+										<td class="item_price">75.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Its mellow and light flavour matches perfectly with Japanese cuisine</td>
+									</tr>
+									<tr><td class="item-id">SK 04</td>
+										<td class="item-name">Hakkaisan Honjozo (750 mL)</td>
+										<td class="item_price">80.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Kubota Senju Tokubetsu Honjozo (750ml)</td>
+									</tr>
+									<tr><td class="item-id">SK 05</td>
+										<td class="item-name">Tamanohikari Omachi Junmai Daiginjo (750 mL)</td>
+										<td class="item_price">110.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Pure rice super premium sake &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>									
+								</table>
+							</div>
+						</P>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Red Wine</h2>
+								<table>
+									<tr><td class="item-id">WN 01</td>
+										<td class="item-name">Rollian House Wine by the Glass & Bottle - Lindeman Bin 50 Shiraz</td>
+										<td class="item_price">8.00 / 30.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Deep ruby/purple colour, floral, blackberry and eucalyptus on the nose with rich spicy berry fruit flavours dry, medium to full-bodied, with a spicy sweet fruit and good length</td>
+									</tr>
+									<tr><td class="item-id">WN 02</td>
+										<td class="item-name">Colores Del Sol Malbec</td>
+										<td class="item_price">38.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Intense aromas of ripe blackberry and hints of spice lead into a rich, fruit‐driven palate, d	ominated by flavors of raspberry and black cherry</td>
+									</tr>
+									<tr><td class="item-id">WN 03</td>
+										<td class="item-name">Meridian Vineyards California - Cabernet Sauvignon</td>
+										<td class="item_price">40.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Black cherries, spice and a hint of vanilla mingles with a blueberry, cassis and chocolate</td>
+									</tr>
+									<tr><td class="item-id">WN 04</td>
+										<td class="item-name">Cellar No 8, Zinfandel, California</td>
+										<td class="item_price">43.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Juicy black cherry and inky blackberry fruit with black pepper, chocolate and a hint of pipe tobacco</td>
+									</tr>
+									<tr><td class="item-id">WN 05</td>
+										<td class="item-name">Santa Barbara Wine Co. - Santa Barbara Pinot Noir</td>
+										<td class="item_price">50.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Bright, fresh berries and sweet spice, which lead to an explosion of ripe cherry, raspberry and strawberry on the palate</td>
+									</tr>
+									<tr><td class="item-id">WN 06</td>
+										<td class="item-name">2007 Castello di Gabbiano “Bellezza” - IGT Rosso di Toscana</td>
+										<td class="item_price">90.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Floral scents of violets, wild berries, mulberry and blackberry. Elegant spices, vanilla, black pepper and cloves with notes of tobacco and chocolate</td>
+									</tr>
+									<tr><td class="item-id">WN 07</td>
+										<td class="item-name">2008 Saltram “No. 1” Barossa Valley Shiraz</td>
+										<td class="item_price">110.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Smoked game and bacon with freshly crushed, Sun-warmed blackberries, black currant cordial, earth, black truffles, anise and allspice&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>									
+								</table>
+							</div>
+						</P>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">White Wine</h2>
+								<table>
+									<tr><td class="item-id">WN 08</td>
+										<td class="item-name">Rollian House Wine by the Glass & Bottle - Lindeman Bin 65 Chardonnay</td>
+										<td class="item_price">8.00 / 30.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Light yellow gold colour, floral with citrus and vanilla aromas, ripe fruit flavours, soft clean finish</td>
+									</tr>
+									<tr><td class="item-id">WN 09</td>
+										<td class="item-name">Campanile Pinot Grigio DOC Grave</td>
+										<td class="item_price">38.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Vibrant aromas of green apple and lemon curd with a light crisp texture</td>
+									</tr>
+									<tr><td class="item-id">WN 10</td>
+										<td class="item-name">Annie’s Lane Clare Valley Riesling</td>
+										<td class="item_price">40.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>This wine offers citrus and floral aromas of lemon pith with jasmine and lavender flavours</td>
+									</tr>
+									<tr><td class="item-id">WN 11</td>
+										<td class="item-name">Meridian Vineyards California - Chardonnay</td>
+										<td class="item_price">40.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Exotic aromas mingle pleasingly in this wine and include notes of fresh cut flowers, lychee and nutmeg</td>
+									</tr>
+									<tr><td class="item-id">WN 12</td>
+										<td class="item-name">900 Grapes Marlborough Sauvignon Blanc</td>
+										<td class="item_price">45.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Aromas of tropical citrus fruits with subtle herbaceous undertones. Classic acidity and a clean refreshing finish rounds the palate</td>
+									</tr>
+									<tr><td class="item-id">WN 13</td>
+										<td class="item-name">2011 Château St. Jean Sonoma County Fume Blanc</td>
+										<td class="item_price">55.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Aromas of lemongrass, green tea and sweet smoky notes. Vibrant acidity and bright fruit flavours of kiwi fruit and melon linger on the palate and lead to a fresh finish with hints of spice</td>
+									</tr>
+									<tr><td class="item-id">WN 14</td>
+										<td class="item-name">2009 Etude Carneros - Chardonnay</td>
+										<td class="item_price">95.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Honeydew, melon and pear along with subtle notes of jasmine with present minerality &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>									
+								</table>
+							</div>
+						</P>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section1">Soup / Salad<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;"> Soup</h2>
+								<table>
+									<tr><td class="item-id">SP 01</td>
+										<td class="item-name">White Miso Soup</td>
+										<td class="item_price">2.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Miso soup with mushroom, green onions, tofu and seaweed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+									<tr><td class="item-id">SP 02</td>
+										<td class="item-name">Miso Tomato Soup with Mushroom</td>
+										<td class="item_price">4.00</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font grey-font" colspan=2>Miso soup made with tomatoes, topped with croutons</td>
+									</tr>
+									<tr><td class="item-id">SP 03</td>
+										<td class="item-name">Chicken Chili Soup</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Chicken breast, chilli powder, kidney beans, garlic, parsley, and ground cumin</td>
+									</tr>
+									<tr><td class="item-id">SP 04</td>
+										<td class="item-name">Rollian Udon </td>
+										<td class="item_price">13.00</td>
+									</tr>
+									<tr><td></td>
+										<td  class="item_desc grey-font grey-font" colspan=2>(Chicken or Veggie or Tempura)</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;"> Salad</h2>
+								<table>
+									<tr><td class="item-id">SL 01</td>
+										<td class="item-name">Beet Salad</td>
+										<td class="item_price">9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Arugula, sprout, goat cheese, lemon sauce and boiled beef</td>
+									</tr>
+									<tr><td class="item-id">SL 02</td>
+										<td class="item-name">Avocado Green Salad</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Arugula, spring mix, sprout and sliced avocado</td>
+									</tr>
+									<tr><td class="item-id">SL 03</td>
+										<td class="item-name">Seaweed Salad</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Seaweed salad with sesame dressing</td>
+									</tr>
+									<tr><td class="item-id">SL 04</td>
+										<td class="item-name">Lobster Salad</td>
+										<td class="item_price">11.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Steamed lobster with masago, mayonnaise, honey, and sprouts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+									<tr><td class="item-id">SL 05</td>
+										<td class="item-name">Spicy Salmon Salad</td>
+										<td class="item_price">9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Spicy mayonnaise with chunked salmon, served with seaweed</td>
+									</tr>
+									<tr><td class="item-id">SL 06</td>
+										<td class="item-name">Orange Blossom Salad</td>
+										<td class="item_price">10.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font" colspan=2>Spring mix with arugula, sprouts, nuts, berries, grapefruits, and balsamic reduction</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Rice</h2>
+								<table>
+									
+									<tr><td class="item-id">RC 01</td>
+										<td class="item-name">Bowl of rice</td>
+										<td class="item_price">2.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>White rice or brown rice or sushi rice &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+										
+								</table>
+							</div>
+						</P>
+					</div>
+				</div>
+				<!-- end collapsible -->
+
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section2">Appetizer<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="appetizers">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Cold Appetizers</h2>
+								<table>
+									<tr><td class="item-id">CA 01</td>
+										<td class="item-name">Petit Sashimi</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Assorted raw fish (6pcs), sashimi</td>
+									</tr>
+									<tr>
+										<td class="item-id">CA 02</td>
+										<td class="item-name">Jaken Sushi</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Assorted sushi (5pcs) with teriyaki sauce</td>
+									</tr>
+									<tr><td class="item-id">CA 03</td>
+										<td class="item-name">Chirashi</td>
+										<td class="item_price">13.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Assorted sashimi (12 pcs) with sushi rice</td>
+									</tr>
+									<tr><td class="item-id">CA 04</td>
+										<td class="item-name">Sushi Appetizers</td>
+										<td class="item_price">10.00</td>
+									</tr>	
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Sushi (6 pcs), California roll (3 pcs)</td>
+									</tr>									
+									<tr><td class="item-id">CA 05</td>
+										<td class="item-name">Tuna Tataki</td>
+										<td class="item_price">11.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Grilled tuna with ponzu sauce (6pcs)</td>
+									</tr>
+									<tr><td class="item-id">CA 06</td>
+										<td class="item-name">Beef Tataki with Fried Noodles</td>
+										<td class="item_price">17.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Grilled beef tenderloin with mixed vegetables and fried noodles and balsamic vinegar sauce</td>
+									</tr>
+									<tr><td class="item-id">CA 07</td>
+										<td class="item-name">Balsamic Tuna</td>
+										<td class="item_price">11.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font grey-font"colspan=2>Marinated tuna with balsamic sauce, fruits, and sprouts mix</td>
+									</tr>
+									<tr><td class="item-id">CA 08</td>
+										<td class="item-name">Kimchi</td>
+										<td class="item_price">4.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">CA 09</td>
+										<td class="item-name">Rollian Ssam</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Salmon, tuna, unagi, beef, spicy sauce and brown rice (4pcs)</td>
+									</tr>
+									<tr><td class="item-id">CA 10</td>
+										<td class="item-name">Raw Oysters</td>
+										<td class="item_price">18.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Raw oysters (6pcs)</td>
+									</tr>
+									<tr><td class="item-id">CA 11</td>
+										<td class="item-name">Assorted Sashimi</td>
+										<td class="item_price">12.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Assorted Sashimi (12pcs)</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Hot Appetizers</h2>
+								<table>
+									<tr><td class="item-id">HA 01</td>
+										<td class="item-name">Salmon Teriyaki</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Pan fried salmon with teriyaki sauce</td>
+									</tr>
+									<tr><td class="item-id">HA 02</td>
+										<td class="item-name">Chicken Teriyaki</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled chicken with teriyaki sauce</td>
+									</tr>
+									<tr><td class="item-id">HA 03</td>
+										<td class="item-name">Tempura</td>
+										<td class="item_price">10.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Shrimp (4pcs) or vegetables (8pcs) or shrimp (2pcs) vegetables (4pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 04</td>
+										<td class="item-name">Chicken with Green Onions</td>
+										<td class="item_price">9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Deep fried chicken and lemon sauce, with green onions or onions (6 pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 05</td>
+										<td class="item-name">Kalbi</td>
+										<td class="item_price">10.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Sliced beef short ribs with vegetables on hot pot (6 pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 06</td>
+										<td class="item-name">Tofu Cake</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Onion, mushrooms, beans, quinoa and tofu</td>
+									</tr>
+									<tr><td class="item-id">HA 07</td>
+										<td class="item-name">Rollian Bop</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Rice with burdock, kanpyo, crab meat, radish, cucumber, seaweed, masago and sesame in hot pot</td>
+									</tr>
+									<tr><td class="item-id">HA 08</td>
+										<td class="item-name">Scallop Butter Yaki</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Pan fried scallop with butter and vegetables (4 pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 09</td>
+										<td class="item-name">Edamame</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Salted Japanese soy beans </td>
+									</tr>
+									<tr><td class="item-id">HA 10</td>
+										<td class="item-name">Kushikatsu</td>
+										<td class="item_price">9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Assorted Japanese style deep fried kebab served with spicy mayo and tonkatsu sauce</td>
+									</tr>
+									<tr><td class="item-id">HA 11</td>
+										<td class="item-name">Scotch Egg</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Medium boiled egg wrapped in sausage meat, coated in Japanese bread crumbs. Served with wasabi mayo and mustard mayo</td>
+									</tr>
+									<tr><td class="item-id">HA 12</td>
+										<td class="item-name">P.E.I. Mussel</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Tomatoes sauce, miso, herbs, sake, garlic,olive oil 17</td>
+									</tr>
+									<tr><td class="item-id">HA 13</td>
+										<td class="item-name">Agedashi Tofu</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Deep Fried Tofu (6pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 14</td>
+										<td class="item-name">Ebi Shumai</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Steamed Shrimp Shumai (6pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 15</td>
+										<td class="item-name">Gyoza</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Deep Fried Dumpling (6pcs)</td>
+									</tr>
+									<tr><td class="item-id">HA 16</td>
+										<td class="item-name">Takoyaki</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Ball-shaped Japanese snack, filled with diced octopus (6pcs)</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section3">Lunch<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="lunch">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Lunch</h2>
+								<p class="menu_desc">Zen Combination Lunch (Including: miso soup, house salad, California roll (3pcs), sushi (2pcs), tempura and rice)</p>
+								<table>						
+									<tr><td class="item-id">LC 01</td>
+										<td class="item-name">Chicken Zen</td>
+										<td class="item_price">14.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled chicken with teriyaki sauce</td>
+									</tr>
+									<tr><td class="item-id">LC 02</td>
+										<td class="item-name">Salmon Zen</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Pan fried salmon with teriyaki sauce</td>
+									</tr>
+									<tr><td class="item-id">LC 03</td>
+										<td class="item-name">Beef Zen</td>
+										<td class="item_price">20.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled beef tenderloin (4oz) with teriyaki sauce</td>
+									</tr>
+									<tr><td class="item-id">LC 04</td>
+										<td class="item-name">Rollian Lunch</td>
+										<td class="item_price">14.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Sushi(4pcs), sashimi(6pcs), California roll(6pcs), soup and house salad</td>
+									</tr>
+									<tr><td class="item-id">LC 05</td>
+										<td class="item-name">Tempura Lunch</td>
+										<td class="item_price">16.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>California roll(4pcs), sushi(6pcs), tempura, soup and house salad</td>
+									</tr>
+									<tr><td class="item-id">LC 06</td>
+										<td class="item-name">Sushi Lunch </td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Spicy salmon roll  (6pcs)  Assorted sushi (9pcs)</td>
+									</tr>
+									<tr><td class="item-id">LC 07</td>
+										<td class="item-name">Maki Lunch Selection </td>
+										<td class="item_price">16.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Green Dragon roll (4pcs)  Spicy Tuna roll (6pcs)  Salmon roll (6pcs) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>									
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section4">Dinner<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="dinner">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Dinner</h2>
+								<p class="menu_desc">Includes soup, salad, and dessert</p>
+								<table>
+									<tr><td class="item-id">DN 01</td>
+										<td class="item-name">Beef Tenderloin Dinner</td>
+										<td class="item_price">27.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled tenderloin (7oz), mashed potatoes and garnish</td>
+									</tr>
+									<tr><td class="item-id">DN 02</td>
+										<td class="item-name">Lobster Butter Yaki</td>
+										<td class="item_price">30.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Steamed and pan-fried lobster served with mashed potatoes and garnish</td>
+									</tr>
+									<tr><td class="item-id">DN 03</td>
+										<td class="item-name">Chef’s Selection</td>
+										<td class="item_price">45.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Assorted sushi, sashimi and rolls (chef’special)</td>
+									</tr>
+									<tr><td class="item-id">DN 04</td>
+										<td class="item-name">Dragon Roll Set</td>
+										<td class="item_price">16.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>2 Kinds of dragon rolls (8pcs)</td>
+									</tr>
+									<tr><td class="item-id">DN 05</td>
+										<td class="item-name">Rollian Veggie Set</td>
+										<td class="item_price">25.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Vegetable sushi (4 pcs), vegetable roll (6 pcs), tofu cake, beet salad</td>
+									</tr>
+									<tr><td class="item-id">DN 06</td>
+										<td class="item-name">Sea Bass Misoyaki Dinner</td>
+										<td class="item_price">29.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Baked Chilean sea bass (7 oz) glazed with miso and garnish </td>
+									</tr>
+									<tr><td class="item-id">DN 07</td>
+										<td class="item-name">Dinner Zen</td>
+										<td class="item_price">25.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Select Salmon or Chicken Teriyaki (Including: miso soup, house salad, California roll (6pcs), sushi (3pcs), tempura)</td>
+									</tr>
+									<tr><td class="item-id">DN 08</td>
+										<td class="item-name">Spicy Roll Trio (20 pcs)</td>
+										<td class="item_price">27.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Spicy Tuna Roll, Spicy Salmon Roll, Spicy Dynamite Roll</td>
+									</tr>
+									<tr><td class="item-id">DN 09</td>
+										<td class="item-name">Spicy Dragon Trio (24 pcs)</td>
+										<td class="item_price">43.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Select 3 Type from Green, Red, Gold, and Black</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section5">Rolls<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="rolls">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Classic Rolls (6pcs)</h2>
+								<table>
+									<tr><td class="item-id">CR 01</td>
+										<td class="item-name">Avocado Roll</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 02</td>
+										<td class="item-name">Avocado & Cucumber Roll</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 03</td>
+										<td class="item-name">Cucumber Roll</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Cucumber, sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 04</td>
+										<td class="item-name">Salmon Roll</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Salmon, sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 05</td>
+										<td class="item-name">Vegetable Roll</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, kanpyo (marinated calabash), sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 06</td>
+										<td class="item-name">Tuna Roll</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Tuna, sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 07</td>
+										<td class="item-name">Negi Hamachi Roll</td>
+										<td class="item_price">8.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Chopped yellow tail with green onions and sesame seeds</td>
+									</tr>
+									<tr><td class="item-id">CR 08</td>
+										<td class="item-name">Spicy Tuna Roll</td>
+										<td class="item_price">9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Spicy tuna mixed with tempura bits</td>
+									</tr>
+									<tr><td class="item-id">CR 09</td>
+										<td class="item-name">Spicy Salmon Roll</td>
+										<td class="item_price">7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Salmon, tempura bits, spicy mayo, sesame seed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+								</table>
+							</div>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Rollian Hoso Rolls</h2>
+								<table>
+									<tr><td class="item-id">HR 01</td>
+										<td class="item-name">Fire Roll (6pcs)</td>
+										<td class="item_price">11.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Deep fried roll with avocado, cucumber, crab meat, masago, sesame seeds, shrimp and cream cheese</td>
+									</tr>
+									<tr><td class="item-id">HR 02</td>
+										<td class="item-name">Boston Roll (8pcs)</td>
+										<td class="item_price">13.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, crab meat, salmon, sesame seeds, lettuce, and kanpyo</td>
+									</tr>
+									<tr><td class="item-id">HR 03</td>
+										<td class="item-name">Dynamite Roll (8pcs)</td>
+										<td class="item_price">12.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, crab meat, sesame seeds, deep fried shrimp and masago</td>
+									</tr>
+									<tr><td class="item-id">HR 04</td>
+										<td class="item-name">Spider Roll (8pcs)</td>
+										<td class="item_price">13.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried soft-shell crab and masago</td>
+									</tr>
+									<tr><td class="item-id">HR 05</td>
+										<td class="item-name">Alaska Roll (8pcs)</td>
+										<td class="item_price">12.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, spicy scallop and masago</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section6">Signature Rolls<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="s_rolls">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Signature Rolls</h2>
+								<table>
+									<tr><td class="item-id">SR 01</td>
+										<td class="item-name">Kamikaze Roll (8pcs)</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, masago, deep fried shrimp, with spicy tuna on top</td>
+									</tr>
+									<tr><td class="item-id">SR 02</td>
+										<td class="item-name">Las Vegas Roll (8pcs)</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp, masago, cream cheese, with salmon and tuna on top</td>
+									</tr>
+									<tr><td class="item-id">SR 03</td>
+										<td class="item-name">Rainbow Roll (8pcs)</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp, masago, with salmon, tuna, unagi, shrimp, and red snapper on top</td>
+									</tr>
+									<tr><td class="item-id">SR 04</td>
+										<td class="item-name">Volcano Roll Flambé (8pcs)</td>
+										<td class="item_price">19.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp, and cream cheese with torched smoked salmon, green onion, katsuobushi on top</td>
+									</tr>
+									<tr><td class="item-id">SR 05</td>
+										<td class="item-name">Lobster Roll (8pcs)</td>
+										<td class="item_price">18.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried lobster and masago</td>
+									</tr>
+									<tr><td class="item-id">SR 06</td>
+										<td class="item-name">Green Dragon Roll</td>
+										<td class="item_price">14.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp, with sliced avocado on top</td>
+									</tr>
+									<tr><td class="item-id">SR 07</td>
+										<td class="item-name">Red Dragon Roll</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp, and masago with tuna and sliced avocado on top</td>
+									</tr>
+									<tr><td class="item-id">SR 08</td>
+										<td class="item-name">Black Dragon Roll</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp and masago with grilled eel and sliced    avocado on top</td>
+									</tr>
+									<tr><td class="item-id">SR 09</td>
+										<td class="item-name">Gold Dragon Roll</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp and masago with salmon and sliced avocado on top</td>
+									</tr>
+									<tr><td class="item-id">SR 10</td>
+										<td class="item-name">Spicy Beef Roll</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, sesame seeds, deep fried shrimp and masago with torched beef and katsuobushi on top</td>
+									</tr>
+									<tr><td class="item-id">SR 11</td>
+										<td class="item-name">Snow White Roll</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado cucumber, sesame seeds, deep fried shrimp and masago with torched red snapper and green onion on top</td>
+									</tr>
+									<tr><td class="item-id">SR 12</td>
+										<td class="item-name">Pomegranate Masala Roll (8 pcs)</td>
+										<td class="item_price">12.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Mixed vegetables with masala sauce</td>
+									</tr>
+									<tr><td class="item-id">SR 13</td>
+										<td class="item-name">Russian Roll (8 pcs)</td>
+										<td class="item_price">13.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, banana pepper, topped with jalapeno and spicy salmon</td>
+									</tr>
+									<tr><td class="item-id">SR 14</td>
+										<td class="item-name">Red Velvet Roll  (8 pcs)</td>
+										<td class="item_price">15.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, deep fried shrimp and masago, topped with tuna, garlic mayo and chopped tomatoes</td>
+									</tr>
+									<tr><td class="item-id">SR 15</td>
+										<td class="item-name">Philadelphia Roll (8pcs)</td>
+										<td class="item_price">13.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, cream cheese, crab meat, masago with smoked salmon on top</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+						
+						<p>
+							<div class="submenu">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">California Base Signature Rolls</h2>
+								<table>
+									<tr><td class="item-id"></td>
+										<td class="item-name"></td>
+										<td class="item_price">(2pcs)/(6pcs)</td>
+									</tr>
+									<tr><td class="item-id">CS 01</td>
+										<td class="item-name">California Roll</td>
+										<td class="item_price">2.00 / 6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Avocado, cucumber, crab meat, masago, sesame seed</td>
+									</tr>
+									<tr><td class="item-id">CS 02</td>
+										<td class="item-name">Yam Purée Roll</td>
+										<td class="item_price">2.50 / 7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Yam purée, avocado, cucumber, crab meat, masago, sesame seed</td>
+									</tr>
+									<tr><td class="item-id">CS 03</td>
+										<td class="item-name">Guacamole  Roll</td>
+										<td class="item_price">2.50 / 7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Onion, pepper, tomato, avocado, cucumber, crab meat, masago, sesame seed</td>
+									</tr>
+									<tr><td class="item-id">CS 04</td>
+										<td class="item-name">Carrot Purée Roll</td>
+										<td class="item_price">2.50 / 7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled carrot puree, avocado, cucumber, crab meat, masago, sesame seed</td>
+									</tr>
+									<tr><td class="item-id">CS 05</td>
+										<td class="item-name">Kimchi Roll</td>
+										<td class="item_price">2.50 / 7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Pan fried kimchi on California roll</td>
+									</tr>
+									<tr><td class="item-id">CS 06</td>
+										<td class="item-name">Nutella Roll</td>
+										<td class="item_price">2.50 / 7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>hazelnut chocolate spread on California roll</td>
+									</tr>
+									<tr><td class="item-id">CS 07</td>
+										<td class="item-name">Chicken Teriyaki Roll</td>
+										<td class="item_price">3.00 / 9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled teriyaki chicken on California roll</td>
+									</tr>
+									<tr><td class="item-id">CS 08</td>
+										<td class="item-name">Mozzarella Roll</td>
+										<td class="item_price">3.00 / 9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>California roll topped with torched mozzarella cheese</td>
+									</tr>
+									<tr><td class="item-id">CS 09</td>
+										<td class="item-name">Tuna and Tomato Roll</td>
+										<td class="item_price">3.50 / 10.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>California roll topped with torched mozzarella cheese</td>
+									</tr>
+									<tr><td class="item-id">CS 10</td>
+										<td class="item-name">Ikura Roll</td>
+										<td class="item_price">3.50 / 10.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>California roll topped with salmon roe</td>
+									</tr>
+									<tr><td class="item-id">CS 11</td>
+										<td class="item-name">Bankok Roll</td>
+										<td class="item_price">3.00 / 9.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>California roll topped with sautéed scallop and mushrooms, and garlic mayo</td>
+									</tr>
+									<tr><td class="item-id">CS 12</td>
+										<td class="item-name">Unagi Roll</td>
+										<td class="item_price">4.00 / 11.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled unagi with honeybrown sauce and sliced ginger on California roll</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section7">Sushi &amp; Sashimi<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="sushi">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Sushi &amp; Sashimi</h2>
+								<table>
+									<tr><td class="item-id"></td>
+										<td class="item-name"></td>
+										<td class="item_price">Sushi / sashimi</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id"></td>
+										<td class="item-name"></td>
+										<td class="item_price">(2pcs)/(3pcs)</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">SS 01</td>
+										<td class="item-name">Sake</td>
+										<td class="item_price">4.50 / 4.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Norwegian Atlantic salmon</td>
+									</tr>
+									<tr><td class="item-id">SS 02</td>
+										<td class="item-name">Maguro</td>
+										<td class="item_price">5.00 / 5.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Bigeye tuna</td>
+									</tr>
+									<tr><td class="item-id">SS 03</td>
+										<td class="item-name">Hamachi</td>
+										<td class="item_price">7.00 / 7.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>California yellowtail from British Columbia</td>
+									</tr>
+									<tr><td class="item-id">SS 04</td>
+										<td class="item-name">Amaebi</td>
+										<td class="item_price">6.00 / 6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Black Tiger, from Thailand</td>
+									</tr>
+									<tr><td class="item-id">SS 05</td>
+										<td class="item-name">Unagi</td>
+										<td class="item_price">5.00 / 5.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Grilled eel, from Hong Kong</td>
+									</tr>
+									<tr><td class="item-id">SS 06</td>
+										<td class="item-name">Kanikama</td>
+										<td class="item_price">4.00 / 4.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Imitated crab meat</td>
+									</tr>
+									<tr><td class="item-id">SS 07</td>
+										<td class="item-name">Tamago</td>
+										<td class="item_price">4.00 / 4.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Pan fried rolled egg</td>
+									</tr>
+									<tr><td class="item-id">SS 08</td>
+										<td class="item-name">Hotategai</td>
+										<td class="item_price">5.00 / 6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>From United States and eastern Canada</td>
+									</tr>
+									<tr><td class="item-id">SS 09</td>
+										<td class="item-name">Ikura</td>
+										<td class="item_price">5.50 / 6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Salmon roe from Vancouver, Canada</td>
+									</tr>
+									<tr><td class="item-id">SS 10</td>
+										<td class="item-name">Shiro Maguro</td>
+										<td class="item_price">5.00 / 5.50</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Albacore tuna, from North Atlantic ocean </td>
+									</tr>
+									<tr><td class="item-id">SS 11</td>
+										<td class="item-name">Uni</td>
+										<td class="item_price">8.00 / 10.00</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="item_desc grey-font"colspan=2>Sea urchin</td>
+										<tr><td class="item-id">SS 12</td>
+										<td class="item-name">Kazunoko</td>
+										<td class="item_price">7.00 / 9.00</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="item_desc grey-font"colspan=2>Herring roe</td>
+										<tr><td class="item-id">SS 13</td>
+										<td class="item-name">Tenderloin</td>
+										<td class="item_price">8.00 / 11.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Lightly torched tenderloin with green onions</td>
+									<tr><td class="item-id">SS 14</td>
+										<td class="item-name">Tako</td>
+										<td class="item_price">6.00 / 7.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Steamed octopus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>									
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section7">Boats<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="boats">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Boats</h2>
+								<table>
+									<tr><td class="item-id">BT 01</td>
+										<td class="item-name">Love Boat (35pcs)</td>
+										<td class="item_price">48.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Sushi (10pcs), sashimi (13pcs), roll (12pcs)(chef’s choice)</td>
+									</tr>
+									<tr><td class="item-id">BT 02</td>
+										<td class="item-name">Sashimi Boat (40pcs)</td>
+										<td class="item_price">50.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Assorted sashimi (40pcs)(chef’s choice)</td>
+									</tr>
+									<tr><td class="item-id">BT 03</td>
+										<td class="item-name">Sushi Boat (40pcs)</td>
+										<td class="item_price">60.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Assorted sushi (40pcs)(chef’s choice)</td>
+									</tr>
+									<tr><td class="item-id">BT 04</td>
+										<td class="item-name">Medium Boat (50pcs)</td>
+										<td class="item_price">76.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>1 Appetizer, sushi (15pcs), sashimi (20pcs), roll (16pcs)(chef’s choice)</td>
+									</tr>
+									<tr><td class="item-id">BT 05</td>
+										<td class="item-name">Large Boat (74pcs)</td>
+										<td class="item_price">105.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>2 Appetizers, sushi (22pcs), sashimi (30pcs), roll (22pcs)(chef’s choice)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+									<tr><td class="item-id">BT 06</td>
+										<td class="item-name">X-Large Boat (Take Out Only)</td>
+										<td class="item_price">From $200 and up</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Fancy decorations, great for parties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+				<!-- collapsible -->
+				<div class="page_collapsible" id="body-section7">Desserts<span></span></div>
+				<div class="inside-container">
+					<div class="inside-content">
+						<p>
+							<div class="submenu" id="desserts">
+								<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;">Desserts</h2>
+								<table>
+									<tr><td class="item-id">DS 01</td>
+										<td class="item-name">Tempura Ice Cream</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Green Tea, Mango, Black Sesame</td>
+									</tr>
+									<tr><td class="item-id">DS 02</td>
+										<td class="item-name">Ice Cream</td>
+										<td class="item_price">4.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Green Tea, Mango, Black Sesame</td>
+									</tr>
+									<tr><td class="item-id">DS 03</td>
+										<td class="item-name">Cake</td>
+										<td class="item_price">6.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DS 04</td>
+										<td class="item-name">Green Tea Crème Brûlée</td>
+										<td class="item_price">5.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+									<tr><td class="item-id">DS 05</td>
+										<td class="item-name">Trio</td>
+										<td class="item_price">12.00</td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2>Cake, green tea crème brûlée and macaroons &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									</tr>
+									<tr><td class="item-id"></td>
+										<td class="item-name"></td>
+										<td class="item_price"></td>
+									</tr>
+									<tr><td></td>
+										<td class="item_desc grey-font"colspan=2></td>
+									</tr>
+								</table>
+							</div>
+						</p>
+					</div>
+				</div>
+				<!-- end collapsible -->
+			</div>
+			
+		</div>
+
+		<!--<div class="menu-list" id="soup">
+			<h2 style="color: #fff; padding: 0px; font-size: 28px;"></h2>
+			<div class="submenu">
+				<h2 style="color:#b0eb70; padding: 0px; font-size: 28px;"></h2>
+				<table>
+					<tr><td class="item-id"></td>
+						<td class="item-name"></td>
+						<td class="item_price"></td>
+					</tr>
+					<tr><td></td>
+						<td class="item_desc grey-font"colspan=2></td>
+					</tr>
+				</table>
+			</div>		
+		</div>	-->
+			
+		<div class="rollian_footer">
+			<a href="#" class="bf_left">COPYRIGHT &copy; ROLLIAN SUSHI. All right reserved.</a>
+			<a href="#" target="_blank">CODROPS</a>
+			<a href="https://play.google.com/store/apps/details?id=com.ejejraks.rollian">
+				<img alt="Get it on Google Play" width="60px" height="20px";
+				src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+			</a>
+			<a href="#" target="_blank">facebook or tweet</a>
+		</div>
+		
+		<!-- The JavaScript -->
+		
+		<!--Gallery-->
+		<script type="text/javascript" src="js/page-collapse/jquery.min.js"></script>
+		<script type="text/javascript" src="js/page-collapse/highlight.pack.js"></script>
+		<script type="text/javascript" src="js/page-collapse/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/page-collapse/jquery.collapsible.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				//syntax highlighter
+				hljs.tabReplace = '    ';
+				hljs.initHighlightingOnLoad();
+
+				$.fn.slideFadeToggle = function(speed, easing, callback) {
+					return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+				};
+
+				//collapsible management
+				$('.collapsible').collapsible({
+					defaultOpen: 'section1',
+					cookieName: 'nav',
+					speed: 'slow',
+					animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
+						elem.next().slideFadeToggle(opts.speed);
+					},
+					animateClose: function (elem, opts) { //replace the standard slideDown with custom function
+						elem.next().slideFadeToggle(opts.speed);
+					},
+					loadOpen: function (elem) { //replace the standard open state with custom function
+						elem.next().show();
+					},
+					loadClose: function (elem, opts) { //replace the close state with custom function
+						elem.next().hide();
+					}
+				});
+				$('.page_collapsible').collapsible({
+					defaultOpen: 'body_section1',
+					cookieName: 'body2',
+					speed: 'slow',
+					animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
+						elem.next().slideFadeToggle(opts.speed);
+					},
+					animateClose: function (elem, opts) { //replace the standard slideDown with custom function
+						elem.next().slideFadeToggle(opts.speed);
+					},
+					loadOpen: function (elem) { //replace the standard open state with custom function
+						elem.next().show();
+					},
+					loadClose: function (elem, opts) { //replace the close state with custom function
+						elem.next().hide();
+					}
+
+				});
+
+				//assign open/close all to functions
+				function openAll() {
+					$('.page_collapsible').collapsible('openAll');
+				}
+				function closeAll() {
+					$('.page_collapsible').collapsible('closeAll');
+				}
+
+				//listen for close/open all
+				$('#closeAll').click(function(event) {
+					event.preventDefault();
+					closeAll();
+
+				});
+				$('#openAll').click(function(event) {
+					event.preventDefault();
+					openAll();
+				});
+
+			});
+		</script>
+		<script>
+			//this function is called by clicking an images from a user.
+			//show a big image from small images.
+			function imageView(bigImage) {
+			  document.querySelector('#popupImage').setAttribute('src', bigImage);
+			  document.querySelector('#popup').style.display = 'block';
+			  document.querySelector('#popupbg').style.visibility = 'visible';
+			}
+
+			//this function is called by clicking close button from a user.
+			//go back to an original window screen.
+			function imageClose() {
+			  document.querySelector('#popup').style.display = 'none';
+			  document.querySelector('#popupbg').style.visibility = 'hidden';
+			}
+		</script>
+		<script>
+		window.onload = function() {
+		  function getScrollTop() {
+			if (typeof window.pageYOffset !== 'undefined' ) {
+			  // Most browsers
+			  return window.pageYOffset;
+			}
+
+			var d = document.documentElement;
+			if (d.clientHeight) {
+			  // IE in standards mode
+			  return d.scrollTop;
+			}
+
+			// IE in quirks mode
+			return document.body.scrollTop;
+		  }
+
+		  window.onscroll = function() {
+			var pop1 = document.getElementById('pop1'),
+				pop2 = document.getElementById('pop2'),
+				pop3 = document.getElementById('pop3'),
+				pop4 = document.getElementById('pop4'),
+				pop5 = document.getElementById('pop5'),
+				pop6 = document.getElementById('pop6'),
+				pop7 = document.getElementById('pop7'),
+				pop8 = document.getElementById('pop8'),
+				pop9 = document.getElementById('pop9'),
+				pop10 = document.getElementById('pop10'),
+				pop11 = document.getElementById('pop11'),
+				pop12 = document.getElementById('pop12'),
+				pop13 = document.getElementById('pop13'),
+				pop14 = document.getElementById('pop14'),
+				pop15 = document.getElementById('pop15'),
+				pop16 = document.getElementById('pop16'),
+				
+				scroll = getScrollTop();
+
+			if (scroll <= 28) {
+			  pop1.style.top = "25%";
+			  pop2.style.top = "25%";
+			  pop3.style.top = "25%";
+			  pop4.style.top = "25%";
+			  pop5.style.top = "25%";
+			  pop6.style.top = "25%";
+			  pop7.style.top = "25%";
+			  pop8.style.top = "25%";
+			  pop9.style.top = "25%";
+			  pop10.style.top = "25%";
+			  pop11.style.top = "25%";
+			  pop12.style.top = "25%";
+			  pop13.style.top = "25%";
+			  pop14.style.top = "25%";
+			  pop15.style.top = "25%";
+			  pop16.style.top = "25%";
+			}
+			else {
+			  pop1.style.top = (scroll + 2) + "px";
+			  pop2.style.top = (scroll + 2) + "px";
+			  pop3.style.top = (scroll + 2) + "px";
+			  pop4.style.top = (scroll + 2) + "px";
+			  pop5.style.top = (scroll + 2) + "px";
+			  pop6.style.top = (scroll + 2) + "px";
+			  pop7.style.top = (scroll + 2) + "px";
+			  pop8.style.top = (scroll + 2) + "px";
+			  pop9.style.top = (scroll + 2) + "px";
+			  pop10.style.top = (scroll + 2) + "px";
+			  pop11.style.top = (scroll + 2) + "px";
+			  pop12.style.top = (scroll + 2) + "px";
+			  pop13.style.top = (scroll + 2) + "px";
+			  pop14.style.top = (scroll + 2) + "px";
+			  pop15.style.top = (scroll + 2) + "px";
+			  pop16.style.top = (scroll + 2) + "px";
+			}
+		  };
+
+		};
+		</script>
+    </body>
+</html>
